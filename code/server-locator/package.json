@@ -1,0 +1,27 @@
+{
+  "name": "server-locator",
+  "version": "0.1.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mechanised-Mango-Box/Beastly-Brawl-Showdown-Meteor-is-a-Mistake.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@beastly-brawl-showdown/configs": "latest",
+    "@types/express": "^5.0.3",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "@beastly-brawl-showdown/sim-core": "latest",
+    "@beastly-brawl-showdown/sim-data": "latest",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0",
+    "sqids": "^0.3.0"
+  }
+}

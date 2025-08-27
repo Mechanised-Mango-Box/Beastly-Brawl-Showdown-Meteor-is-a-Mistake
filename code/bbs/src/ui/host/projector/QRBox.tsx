@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { generateQRCode } from "../../../../../beastly-brawl-showdown/imports/api/QRCode";
+import { generateQRCode } from "../../../../../server-locator/QRCode";
 
 export const QRBox = ({ joinUrl }: { joinUrl: string }) => {
   //qrcode code
