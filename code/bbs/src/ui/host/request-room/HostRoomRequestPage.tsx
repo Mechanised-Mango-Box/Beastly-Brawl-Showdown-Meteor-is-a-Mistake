@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Meteor } from "meteor/meteor";
+
 import { useNavigate } from "react-router-dom";
 
 /** Sends request to host */

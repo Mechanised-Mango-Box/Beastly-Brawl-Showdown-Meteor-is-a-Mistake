@@ -1,4 +1,4 @@
-import { Meteor } from "meteor/meteor";
+
 import { WaitingRoomInfoBox } from "./WaitingRoomInfoBox";
 import { ParticipantDisplayBox } from "./ParticipantDisplayBox";
 import { io, Socket } from "socket.io-client";

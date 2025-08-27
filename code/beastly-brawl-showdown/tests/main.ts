@@ -1,4 +1,4 @@
-import { Meteor } from "meteor/meteor";
+
 import assert from "assert";
 
 describe("meteor-app", function () {

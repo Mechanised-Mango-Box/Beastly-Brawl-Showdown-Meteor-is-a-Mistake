@@ -1,4 +1,4 @@
-import { Meteor } from "meteor/meteor";
+
 import React, { useEffect, useState } from "react";
 import { QRBox } from "../../host/projector/QRBox";
 import { CodeLink } from "../../host/projector/CodeLink";

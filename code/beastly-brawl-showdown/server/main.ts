@@ -1,5 +1,5 @@
 import "../imports/api/RoomMethods";
-import { Meteor } from "meteor/meteor";
+
 import Sqids from "sqids";
 /* Import all methods here */
 import "../imports/api/RoomMethods";

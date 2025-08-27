@@ -1,11 +1,4 @@
-import React from "react";
-import {
-  Dispatch,
-  SetStateAction,
-  MutableRefObject,
-  useState,
-  useEffect,
-} from "react";
+import { type Dispatch, type SetStateAction, type MutableRefObject, useState, useEffect } from "react";
 // From chat since idk what they were ^
 import { useNavigate } from "react-router-dom";
 
@@ -69,16 +62,10 @@ export default function SettingsPage({
       <div className="bgm-toggle-container">
         <label>BGM</label>
         <div className="toggle-switch">
-          <button
-            className={tempEnabled ? "toggle-btn on" : "toggle-btn"}
-            onClick={() => setTempEnabled(true)}
-          >
+          <button className={tempEnabled ? "toggle-btn on" : "toggle-btn"} onClick={() => setTempEnabled(true)}>
             On
           </button>
-          <button
-            className={!tempEnabled ? "toggle-btn off" : "toggle-btn"}
-            onClick={() => setTempEnabled(false)}
-          >
+          <button className={!tempEnabled ? "toggle-btn off" : "toggle-btn"} onClick={() => setTempEnabled(false)}>
             Off
           </button>
         </div>
@@ -87,15 +74,7 @@ export default function SettingsPage({
       <div className="volume-control">
         <label htmlFor="bgmVolume">BGM Volume</label>
         <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-          <input
-            id="bgmVolume"
-            type="range"
-            min="0"
-            max="100"
-            value={tempVolume}
-            onChange={(e) => setTempVolume(Number(e.target.value))}
-            disabled={!tempEnabled}
-          />
+          <input id="bgmVolume" type="range" min="0" max="100" value={tempVolume} onChange={(e) => setTempVolume(Number(e.target.value))} disabled={!tempEnabled} />
           <span>{tempVolume}%</span>
         </div>
       </div>
